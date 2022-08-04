@@ -1,0 +1,48 @@
+﻿* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.apple1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(238, 241, 17, 0.951);
+
+    display: flex;
+    justify-content: center;
+}
+
+.score {
+    position: absolute;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+.gameTitle {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.buttonStartGame {
+    background-color: darkblue;
+    margin-top: 50px;
+    height: 50px;
+    color: white;
+}
+
+.startGameInstruction {
+    padding: 50px;
+    position: absolute;
+    left: calc(100% / 4);
+    top: calc(100% / 5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: calc(100% / 2);
+    background-color: lightgreen;
+}
+
+.instructionItem {
+    margin-bottom: 15px;
+}
